@@ -1,0 +1,39 @@
+.subscription {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 500px;
+
+  background-color: #1f1f1f;
+  border-radius: 12px;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.subscription-date {
+   color: #ffffff;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.subscription-title {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin: 0;
+  flex: 1;
+  text-align: center;
+}
+
+.subscription-amount {
+  background-color: #40005d;
+  color: white;
+
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+
+  font-weight: bold;
+  font-size: 1rem;
+}
