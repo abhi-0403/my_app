@@ -27,21 +27,21 @@ function App() {
   return (
     <div>
       <Subscription
-        passeddate={subscriptions[0].date}
-        passedTitle={subscriptions[0].title}
-        passedAmount={subscriptions[0].amount}
+        Date={subscriptions[0].date}
+        Title={subscriptions[0].title}
+        Amount={subscriptions[0].amount}
       />
 
       <Subscription
-        passeddate={subscriptions[1].date}
-        passedTitle={subscriptions[1].title}
-        passedAmount={subscriptions[1].amount}
+        Date={subscriptions[1].date}
+        Title={subscriptions[1].title}
+        Amount={subscriptions[1].amount}
       />
 
       <Subscription
-        passeddate={subscriptions[2].date}
-        passedTitle={subscriptions[2].title}
-        passedAmount={subscriptions[2].amount}
+        Date={subscriptions[2].date}
+        Title={subscriptions[2].title}
+        Amount={subscriptions[2].amount}
       />
     </div>
   );
